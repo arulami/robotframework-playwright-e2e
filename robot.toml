@@ -1,0 +1,12 @@
+# RobotCode configuration — single source of truth for IDE, CLI, and CI.
+paths = ["tests"]
+output-dir = "results"
+python-path = ["."]
+default-profiles = ["saucedemo"]
+
+[variables]
+HEADLESS = "false"
+
+[profiles.saucedemo.extend-variables]
+BASE_URL = "https://www.saucedemo.com"
+API_BASE_URL = "https://www.saucedemo.com/api"

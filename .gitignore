@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Robot Framework / Browser output
+results/
+log.html
+report.html
+output.xml
+
+# Secrets (keep .env.example committed)
+.env
+
+# RobotCode personal config overrides
+.robot.toml
+
+# Claude Code personal/machine-local settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Playwright skill/MCP artifact dumps
+.playwright-cli/
+.playwright-mcp/
